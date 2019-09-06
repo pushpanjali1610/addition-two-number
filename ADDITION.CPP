@@ -3,10 +3,10 @@
 void main()
 {
 clrscr();
-float a,b,c;
+int a,b,c;
 printf("Enter any two numbers :");
-scanf("%f%f",&a,&b);
+scanf("%d%d",&a,&b);
 c=a+b;
-printf("Addition =%f\n" , c);
+printf("Addition =%d\n" , c);
 getch();
 }
